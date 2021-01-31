@@ -42,10 +42,10 @@
             <nav id="menu">
                 <ul class="barra"> 
                     <li class="boton"> 
-                        <a href="hola" class="aheader-hola"> HOLA </a>
+                        <a href="#informacion" class="aheader-hola"> HOLA </a>
                     </li>
-                    <li class="boton"> 
-                        <a href="#item-skills" class="aheader"> CONOCIMIENTOS </a>
+                    <li class="boton">
+                        <a href="#mis-conocimientos" class="aheader"> CONOCIMIENTOS </a>
                     </li>
                     <li class="boton"> 
                         <a href="proyectos" class="aheader"> PROYECTOS </a>
@@ -54,6 +54,7 @@
                         <a href="contacto" class="aheader-contacto"> CONTACTO </a>
                     </li>
                 </ul>
+                <a name="mis-conocimientos"> </a>
             </nav>
         </div>
     </header>
@@ -63,7 +64,7 @@
     <div class="contenedor-principal">
         <section class="parte-1"> 
 
-            <div class="informacion"> 
+            <div id="informacion"> 
                 <p class="saludo"> ¡Hola! Soy </p>
                 <h1 class="nombre"> Lorena Delgado </h1>
                 <p class="descrip">
@@ -71,7 +72,7 @@
                 </p>
             
             <a href="index.html" class="loquehago">
-                <p class="boton-contacto"> LO QUE HAGO </p>
+                <p class="boton-contacto" id="boton-info"> LO QUE HAGO </p>
             </a>
             </div>
         </section>
@@ -90,7 +91,7 @@
 
                             <!-- Titulos -->
             <div class="parte-conocimientos">
-                <h2 class="mis-conocimientos"> Mis Conocimientos </h2>
+                <h2 id="mis-conocimientos"> Mis Conocimientos </h2>
                 <h3 class="descri-conoc"> 
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Beatae eaque neque molestias consequuntur vel ab quas architecto.
@@ -99,8 +100,7 @@
         
                             <!-- CAJAS -->  
             <div class="container-cajas">
-                <a href="#itemskills"> </a>
-
+                
                 <div class="item-skills">  
                     <i class="devicon-html5-plain colored"></i> 
                     <p class="skills-html"> HTML5 </p>

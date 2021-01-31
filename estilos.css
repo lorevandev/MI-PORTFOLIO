@@ -12,7 +12,7 @@ body{
 
 .barra{
     width: 100%;
-    height: 5.5em;
+    height: 4em;
     background-color: rgb(250, 211, 111);
     /** background-color: rgb(238, 198, 98); **/
     /** background-color: rgb(203, 206, 238); **/
@@ -99,7 +99,7 @@ li.boton{
     display:flex;
     flex-direction: row;
     width:100%;
-    justify-content: space-evenly;
+    justify-content:center;
     padding: 120px 30px;
     /**background-color:darksalmon; **/
 }
@@ -115,7 +115,10 @@ li.boton{
     font-weight: 800;
     font-size: 30px;
     margin-left: 50px;
-    margin-bottom: 1px;    
+    margin-bottom: 1px;
+    /** background-color: darkorange; **/
+   
+    
 }
 
 p{
@@ -130,6 +133,8 @@ p{
     color: rgb(106, 95, 211); 
     font-size: 60px;
     margin-left: 50px;
+    margin-bottom: 1px;
+    
 }
 
 h1{
@@ -152,11 +157,20 @@ h1{
     font-weight: 500;
     margin-left: 50px;
     margin-top: 2px;
+    
+    
+    /** background-color: aqua; **/
 }  
 
 .loquehago{
     color: white;
     margin-left: 50px;
+    background-color:coral;
+}
+
+#boton-info{
+    margin-left:50px;
+    margin-top: -5px;
 }
 
 /**
@@ -167,6 +181,7 @@ h1{
 
 .about-img{
     max-width: 700px;
+    margin-top: 50px;
 } 
 
 
@@ -178,11 +193,11 @@ h1{
     box-shadow: 2px 2px 8px goldenrod;
 }
 
-.mis-conocimientos{
+#mis-conocimientos{
     font-size: 45px;
     font-weight: 900;
     text-align: center;
-    padding-top:55px;
+    padding-top: 90px;
     padding-bottom: 30px;
     font-family: 'Nunito', sans-serif;    
 }
@@ -202,7 +217,7 @@ h2{
 /** CAJAS **/
 
 .container-cajas{
-    background-color: cornflowerblue;
+    /** background-color: cornflowerblue; **/
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
