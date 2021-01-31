@@ -1,0 +1,378 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:hsl(51, 70%, 75%); 
+    font-family: 'Montserrat', sans-serif;
+}
+ 
+/** HEADER - MENU NAVEGACION  **/ 
+
+.barra{
+    width: 100%;
+    height: 5.5em;
+    background-color: rgb(250, 211, 111);
+    /** background-color: rgb(238, 198, 98); **/
+    /** background-color: rgb(203, 206, 238); **/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    position: fixed;
+    box-shadow: 2px 2px 8px goldenrod;
+    padding-right: 3em;
+}
+
+ul, li{
+    margin-right: 35px;
+    
+}
+
+.boton{
+    width: 155px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   /** margin-left: 50px; **/
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.boton-contacto{
+    width: 155px;
+    height: 40px;    
+    border-radius: 100px;
+    text-decoration: none;
+    background-color: rgb(106, 95, 211); 
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /**margin-left: 50px; **/
+    font-weight: bold;
+}
+
+.boton-contacto:hover{
+    background-color: cornflowerblue;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.boton-contacto a:hover{
+    color: brown;
+}
+
+.aheader{
+    color:black;
+    text-decoration: none;
+}
+
+.aheader-hola{
+    color:black;
+    text-decoration: none;
+    margin-right: 0.5px;
+}
+
+.aheader:hover{
+    color:  rgb(106, 95, 211); 
+}
+
+.aheader-contacto{
+    color:white;
+    text-decoration: none;
+}
+
+li.boton{
+    margin-right:3px;
+}
+
+/** CONTENEDOR PRINCIPAL - INFORMACION **/
+
+.contenedor-principal{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: space-evenly;
+    padding: 120px 30px;
+    /**background-color:darksalmon; **/
+}
+
+.informacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.saludo{
+    font-weight: 800;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-bottom: 1px;    
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.nombre{
+    color: rgb(106, 95, 211); 
+    font-size: 60px;
+    margin-left: 50px;
+}
+
+h1{
+    font-weight: 800;
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;  
+}  
+
+:-webkit-any(article,aside,nav,section) h1{
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+} 
+
+.descrip{
+    color:rgb(212, 132, 11);
+    font-size: 30px;
+    font-style: italic;
+    font-family: cursive;
+    font-weight: 500;
+    margin-left: 50px;
+    margin-top: 2px;
+}  
+
+.loquehago{
+    color: white;
+    margin-left: 50px;
+}
+
+/**
+.imagen{
+    display: block;
+    width: 100%;
+}  **/
+
+.about-img{
+    max-width: 700px;
+} 
+
+
+/** PARTE 2 **/
+/** MIS CONOCIMIENTOS **/
+
+.container-conocimientos{
+    background-color: hsl(46, 92%, 65%); 
+    box-shadow: 2px 2px 8px goldenrod;
+}
+
+.mis-conocimientos{
+    font-size: 45px;
+    font-weight: 900;
+    text-align: center;
+    padding-top:55px;
+    padding-bottom: 30px;
+    font-family: 'Nunito', sans-serif;    
+}
+
+.descri-conoc{
+    text-align: center;
+    padding-left: 33%;
+    padding-right: 33%;
+    padding-bottom: 15px;
+    font-weight: lighter;
+}
+
+h2{
+    display: block;
+}
+
+/** CAJAS **/
+
+.container-cajas{
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+    margin:auto;
+    
+}
+ 
+.item-skills{
+    
+    width: 14em;
+    height: 12em;
+    background-color: white;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: flex-start;
+    width: 260px;
+    height: 230px;
+    border-radius: 10%;
+    margin:0.5em;
+    margin-top:2em;
+    margin-bottom: 2em;
+
+    /** margin:0.5em; 
+    margin-top:2em;
+    margin-bottom: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    font-weight: 600;
+    font-size: 20px; **/
+}
+
+.devicon-html5-plain{
+    font-size: 100px;
+    padding-left: 80px;
+    padding-top: 40px;
+}
+
+.skills-html{
+    font-size: 1.25em;
+    font-weight: 700;
+    padding-left: 38%;
+    display: flex;
+    text-align: center;
+}
+
+.devicon-css3-plain{
+    font-size: 100px;
+    padding-left: 80px;
+    padding-top: 40px;
+}
+
+.skills-css{
+    font-size: 1.25em;
+    font-weight: 700;
+    padding-left: 42%;
+    text-align: center;
+}
+
+.devicon-sass-original{
+    font-size: 100px;
+    padding-left: 80px;
+    padding-top: 40px;
+}
+
+.skills-sass{
+    font-size: 1.25em;
+    font-weight: 700;
+    padding-left: 42%;
+    text-align: center;
+}
+
+.devicon-javascript-plain{
+    font-size: 100px;
+    padding-left: 80px;
+    padding-top: 40px;
+}
+
+.skills-js{
+    font-size: 1.25em;
+    font-weight: 700;
+    padding-left: 78px;
+    text-align: center;
+    position: relative;
+}
+
+.devicon-react-original{
+    font-size: 100px;
+    padding-left: 80px;
+    padding-top: 40px;
+}
+
+.skills-react{
+    font-size: 1.25em;
+    font-weight: 700;
+    padding-left: 40%;
+    text-align: center;
+}
+
+.devicon-git-plain{
+    font-size: 100px;
+    padding-left: 80px;
+    padding-top: 40px;
+}
+
+.skills-git{
+    font-size: 1.25em;
+    font-weight: 700;
+    padding-left: 45%;
+    text-align: center;
+}
+
+/** PARTE 3 **/
+/** PARRAFO **/
+
+
+.parte-3{
+   /**  background-color: hsl(46, 92%, 65%);**/
+    box-shadow: 2px 2px 8px goldenrod; 
+    background-color: darkgoldenrod;
+    width: 100%;
+} 
+
+.container-parrafo{
+    display: flex;
+   /**  margin-left: auto;
+    margin-right: auto; **/
+    margin-bottom: 1em;
+    background-color: darkgoldenrod;
+    /** background-color: rgb(202, 218, 248); **/
+    /**background-color: rgb(241, 179, 135);**/
+}
+
+.comilla{
+    font-size: 12em;
+    text-align: center;
+    margin: 0.1em;
+    height: 0.8em;
+    color:white;
+    /** background-color: burlywood; **/
+}
+
+.texto{
+    text-align: center;
+    font-size: 1.3em;
+    font-style: italic;
+    color: white;
+    line-height: 1.5em; 
+    margin-top:0;
+    margin-bottom:2em;
+    /** background-color: seagreen; **/
+}
+
+.autor{
+    text-align: center;
+    font-size:1.8em;
+    color:white;
+    font-weight: bolder;
+    margin-bottom: 2em;
+}
+
+
+
+
+
+
+
