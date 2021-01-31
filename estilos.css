@@ -27,16 +27,15 @@ body{
 }
 
 ul, li{
-    margin-right: 35px;
-    
+    margin-right: -15px;
 }
 
 .boton{
-    width: 155px;
+    width: 175px;
     height: 40px;
     text-align: center;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly; 
     align-items: center;
    /** margin-left: 50px; **/
     font-weight: bold;
@@ -77,7 +76,6 @@ a:link{
 .aheader-hola{
     color:black;
     text-decoration: none;
-    margin-right: 0.5px;
 }
 
 .aheader:hover{
@@ -117,8 +115,6 @@ li.boton{
     margin-left: 50px;
     margin-bottom: 1px;
     /** background-color: darkorange; **/
-   
-    
 }
 
 p{
@@ -134,7 +130,6 @@ p{
     font-size: 60px;
     margin-left: 50px;
     margin-bottom: 1px;
-    
 }
 
 h1{
@@ -157,9 +152,7 @@ h1{
     font-weight: 500;
     margin-left: 50px;
     margin-top: 2px;
-    
-    
-    /** background-color: aqua; **/
+   /** background-color: aqua; **/
 }  
 
 .loquehago{
@@ -226,7 +219,6 @@ h2{
     margin-right: auto;
     padding: 2em;
     margin:auto;
-    
 }
  
 .item-skills{
@@ -339,7 +331,6 @@ h2{
 /** PARTE 3 **/
 /** PARRAFO **/
 
-
 .parte-3{
    /**  background-color: hsl(46, 92%, 65%);**/
     box-shadow: 2px 2px 8px goldenrod; 
@@ -351,7 +342,7 @@ h2{
     display: flex;
    /**  margin-left: auto;
     margin-right: auto; **/
-    margin-bottom: 1em;
+    margin-bottom: 0em;
     background-color: darkgoldenrod;
     /** background-color: rgb(202, 218, 248); **/
     /**background-color: rgb(241, 179, 135);**/
@@ -385,9 +376,74 @@ h2{
     margin-bottom: 2em;
 }
 
+        /** PARTE 4 **/
+        /** MIS PROYECTOS **/
 
+.container-proy{
+    background-color: hsl(46, 92%, 65%); 
+    box-shadow: 2px 2px 8px goldenrod;
+}
 
+#mis-proyectos{
+    font-size: 45px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    font-family: 'Nunito', sans-serif; 
+}
 
+.descri-proy{
+    text-align: center;
+    padding-left: 33%;
+    padding-right: 33%;
+    padding-bottom: 15px;
+    font-weight: lighter;
+}
 
+/** CAJAS - MIS PROYECTOS **/ 
+
+.container-cajas-proy{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+    margin:auto;
+}
+
+.item-proy{
+    width: 23em;
+    height: 20em;
+    background-color: white;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: flex-start;
+    width: 260px;
+    height: 230px;
+    border-radius: 10%;
+    margin:0.5em;
+    margin-top:2em;
+    margin-bottom: 2em;
+}
+
+.proy-portfolio{
+    font-size: 1.25em;
+    font-weight: 700;
+    padding-left: 38%;
+    display: flex;
+    text-align: center;
+}
+
+.proy-calculadora{
+    font-size: 1.25em;
+    font-weight: 700;
+    padding-left: 38%;
+    display: flex;
+    text-align: center;
+}
 
 
