@@ -251,23 +251,34 @@
             <div class="parte-formulario">
                 <h2 id="contacto"> Escribime </h2>
              
-                <form>
-                    <label for="idNombre"> Nombre </label>
-                    <input id="idNombre" name="nombre" type="text" placeholder="Ingresa tu nombre">
-
-                    <label for="idApellido"> Apellido </label>
-                    <input id="idApellido" name="apellido" type="text" placeholder="Ingresa tu apellido">
-                   
+                <form class="conte-formulario">
+                    <div class="form-nombre"> 
+                        <label for="idNombre" class="datos"> Nombre </label> 
+                        <br>
+                        <input id="idNombre" name="nombre" type="text" placeholder="Ingresa tu nombre">
+                    </div>
                     <br> <br>
 
-                    <label for="idEmail"> Email </label>
-                    <input id="idEmail" name="email" type="text" placeholder="Ingresa tu mail">
+                    <div class="form-apellido"> 
+                        <label for="idApellido" class="datos"> Apellido </label>
+                        <br>
+                        <input id="idApellido" name="apellido" type="text" placeholder="Ingresa tu apellido">
+                    </div>    
+
+                    <br> <br>
+                    <div class="form-email">
+                        <label for="idEmail" class="datos"> Email </label>
+                        <br>
+                        <input id="idEmail" name="email" type="text" placeholder="Ingresa tu mail">
+                    </div>
 
                     <br> <br>
 
-                    <label for="idMensaje"> Mensaje </label>
-                    <input id="idMensaje" name="mensaje" type="text" placeholder="Escriba un mensaje aquí">
-
+                    <div class="form-mensaje">
+                        <label for="idMensaje" class="datos"> Mensaje </label>
+                        <textarea id="idMensaje"></textarea>
+                    
+                    </div>
 
                 </form>
 
