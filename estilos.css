@@ -441,7 +441,7 @@ h2{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 1%;
-    border-radius: 3%;
+    border-radius: 15px;
 }
 
 /** Contenedor parte Contacto **/
@@ -521,4 +521,10 @@ h2{
     padding-left: 80px;
     padding-top: 2px;
     margin-right: 12px;
+}
+
+h4{
+    font-weight:lighter;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1em;
 }
