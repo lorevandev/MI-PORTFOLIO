@@ -435,25 +435,91 @@ h2{
 
              /** FORMULARIO **/ 
 
+/** Contenedor general **/
 .container-form{
-    background-color: white;
+    background-color:white;
     box-shadow: 2px 2px 8px goldenrod;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    border-radius: 3%;
 }
-            
-#mis-proyectos{
+
+/** Contenedor parte Contacto **/
+.parte-contacto{
+    width: 50%;
+    /** background-color: teal; **/
+}
+
+#contacto{
     font-size: 45px;
     font-weight: 900;
-    text-align: center;
-    padding-top: 70px;
+    text-align:left;
+    padding-top: 50px;
     padding-bottom: 30px;
+    padding-left: 10%;
     font-family: 'Nunito', sans-serif; 
 }
             
-.descri-proy{
-    text-align: center;
-    padding-left: 33%;
-    padding-right: 33%;
+.descri-form{
+    text-align: justify;
     padding-bottom: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
     font-weight: lighter;
 }
+            /** CONTENEDORES ICONOS **/
 
+.cont-twitter{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+  /**  background-color: brown; **/
+} 
+
+.devicon-twitter-original{
+    font-size: 20px;
+    padding-left: 80px;
+    padding-top: 40px;
+    margin-right: 12px;
+}
+
+.cont-github{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+}
+
+.devicon-github-original{
+    font-size: 25px;
+    padding-left: 80px;
+    padding-top: 40px;
+    margin-right: 12px;
+}
+
+.cont-link{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+}
+
+.devicon-linkedin-plain{
+    font-size: 25px;
+    padding-left: 80px;
+    padding-top: 40px;
+    margin-right: 12px;
+}
+
+.cont-mail{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+
+}
+
+.fa-envelope{
+    font-size: 25px;
+    padding-left: 80px;
+    padding-top: 2px;
+    margin-right: 12px;
+}
