@@ -440,24 +440,36 @@ h2{
     background-color:white;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 1%;
+    margin-top: 5%;
     border-radius: 15px;
+}
+
+.parte-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/** Contenedor parte formulario **/
+.parte-formulario{
+    width: 50%;
 }
 
 /** Contenedor parte Contacto **/
 .parte-contacto{
     width: 50%;
     /** background-color: teal; **/
-}
+} 
 
 #contacto{
     font-size: 45px;
-    font-weight: 900;
+    
     text-align:left;
     padding-top: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     padding-left: 10%;
-    font-family: 'Nunito', sans-serif; 
+    /** font-family: 'Nunito', sans-serif; **/
+    font-family: 'Quicksand', sans-serif;
 }
             
 .descri-form{
@@ -528,3 +540,4 @@ h4{
     font-family: 'Quicksand', sans-serif;
     font-size: 1.1em;
 }
+
