@@ -563,13 +563,14 @@ h4{
     resize: both;
     /** max-height: 2000em;
     min-height: 12em; **/
-   
+ 
 textarea{
-    resize: vertical;
-    max-height: 300px;
-    min-height: 100px;
+    resize: both;
+    min-width: 34em;
+    min-height: 9.37em; 
     display: block;
-}
+} 
+
 
 /** Alinea los campos nombre y apellido **/
 
@@ -601,6 +602,8 @@ textarea{
     width: 34em;
 } 
 
+     /** Estilo de los campos **/
+
 input, textarea{
     border-radius: 1.25em;
     height: 3em;
@@ -612,4 +615,8 @@ input, textarea{
 
 input:hover{
 border: 1px solid rgb(106, 95, 211);
+}
+
+textarea:hover{
+    border: 1px solid rgb(106, 95, 211);
 }
