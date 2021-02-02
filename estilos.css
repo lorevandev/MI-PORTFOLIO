@@ -433,6 +433,7 @@ h2{
     border: 4px solid rgb(106, 95, 211); 
 }
 
+             /** PARTE 5 **/
              /** FORMULARIO **/ 
 
 /** Contenedor general **/
@@ -440,7 +441,7 @@ h2{
     background-color:white;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 5%;
+    margin-top: 3%;
     border-radius: 15px;
     border: 2px solid goldenrod;
 }
@@ -449,13 +450,15 @@ h2{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 3em;
+    /** background-color: lightseagreen; **/
 }
 
 /** Contenedor parte Contacto **/
 
 .parte-contacto{
     width: 50%;
-    /** background-color: teal; **/
+/** background-color: teal;**/
 } 
 
 /** Contenedor parte formulario **/
@@ -472,6 +475,7 @@ h2{
     padding-left: 10%;
     /** font-family: 'Nunito', sans-serif; **/
     font-family: 'Quicksand', sans-serif;
+    /** background-color: brown; **/
 }
             
 .descri-form{
@@ -480,6 +484,7 @@ h2{
     padding-left: 10%;
     padding-right: 10%;
     font-weight: lighter;
+    margin-top: 1em;
 }
             /** CONTENEDORES ICONOS **/
 
@@ -487,7 +492,7 @@ h2{
     display: flex;
     flex-direction: row;
     justify-content:left;
-  /**  background-color: brown; **/
+    /** background-color:darkkhaki: **/
 } 
 
 .devicon-twitter-original{
@@ -547,15 +552,62 @@ h4{
 /** Establece la fuente del form **/
 .datos{
     font-family: 'Poppins', sans-serif;
-    font-size: 1.1em; 
+    font-size: 1.1em;
+    /** background-color: deeppink; **/
 }
 
 /** Extiende el cuadro de texto **/
-.form-mensaje > textarea{
-    display: block;
+
+/** .form-mensaje > textarea{
+    display: block; 
+    resize: both;
+    /** max-height: 2000em;
+    min-height: 12em; **/
+   
+textarea{
     resize: vertical;
-    max-height: 2000em;
-    min-height: 12em;
+    max-height: 300px;
+    min-height: 100px;
+    display: block;
 }
 
+/** Alinea los campos nombre y apellido **/
 
+.nombre-ape{
+    display: flex;
+    flex-direction: row;
+    padding-right: 5px;
+    justify-content: space-between;
+}
+
+.form-nombre{
+    margin-top:1em;
+}
+
+.form-apellido{
+    margin-right: 5em;
+    margin-top: 1em;
+}
+
+.form-email{
+    margin-bottom: 1em;
+}
+
+.form-mensaje{
+   margin-bottom: 2em;
+}
+
+#idEmail{
+    width: 34em;
+} 
+
+input, textarea{
+    border-radius: 1.25em;
+    height: 3em;
+    background-color: #f6f7fb;
+    border: 1px solid #f6f7fb;
+    outline: none;
+    /** box-shadow: 2px 2px 8px goldenrod; **/
+    box-shadow: 0px 0px 0px 0px goldenrod;
+
+}
