@@ -655,18 +655,20 @@ textarea:hover{
                  /** FOOTER **/
 
           /** Container general **/
-          
-    .container-foot{
-        display: flex;
-        margin-bottom: 0em;
-        background-color: darkgoldenrod;
-    }
 
-    .parte-6{
-        box-shadow: 2px 2px 8px goldenrod; 
-        background-color: darkgoldenrod;
-        width: 100%;
-    }
+.container-foot{
+    display: flex;
+    margin-bottom: 0em;
+    background-color: darkgoldenrod;
+}
+
+        /** Fondo Footer **/
+.parte-6{
+    box-shadow: 2px 2px 8px goldenrod; 
+    background-color: darkgoldenrod;
+    width: 100%;
+}
+        /** Menu **/
 
 .menu-footer{
     display: flex;
@@ -678,15 +680,60 @@ textarea:hover{
     margin-top: 4%;
     font-size: 1em;
 }
+    /** Texto del menu **/
 
 .link-footer{
-    color: white;
+    color:white;
     font-family:'Quicksand', sans-serif;
 }
+
+
+/** ICONOS REDES SOCIALES - FOOTER **/ 
+
+.fa-twitter, .fa-github, .fa-linkedin{
+    border:0.5em solid white;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 1.4em;;
+}
+
+.fa-twitter:hover{
+    background-color:  darkgoldenrod; 
+    border: 0.5em solid white;
+}
+
+.fa-github:hover{
+    background-color:  darkgoldenrod;
+}
+
+
+.fa-linkedin:hover{
+    background-color:  darkgoldenrod;
+}
+
+     /** Alineacion iconos **/
+
+.redes-footer-links{
+    margin-left: 35%;
+    margin-right: 35%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%;
+    margin-top: 2%;
+}
+
+li{
+    list-style: none;
+    display: inline;
+}
+
+    /** Texto hecho con ❤️ **/
 
 .hecho{
     text-align: center;
     font-family:'Quicksand', sans-serif;
     font-size: 1em;
     color: white;
+    margin-bottom: 5%;
 }
+
