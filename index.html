@@ -28,6 +28,37 @@
         .texto, .autor{
             font-family: 'Quicksand', sans-serif;
         }
+
+        @media screen and (max-width: 576px){
+            .barra{
+                width: 75%;
+            }
+        
+            .contenedor-principal{
+                .about-img{
+                    width: 5%;
+                    height: 3%;
+                }
+            }
+
+
+            .container-conocimientos{
+                width: 100%;
+            }
+        
+
+            .container-foot{
+                width: 300%;
+                
+            }
+        
+        
+        }
+
+
+
+
+
         
     </style>
 </head>
@@ -297,23 +328,50 @@
                 <nav class="barra-footer"> 
                     <ul class="menu-footer">
                         <li class="item-footer">
-                            <a href="" class="link-footer"> HOLA </a>
+                            <a href="#informacion" class="link-footer"> HOLA </a>
                         </li>
                         <li class="item-footer"> 
-                            <a href="" class="link-footer"> CONOCIMIENTOS </a> 
+                            <a href="#mis-conocimientos" class="link-footer"> CONOCIMIENTOS </a> 
                         </li>
                         <li class="item-footer"> 
-                            <a href="" class="link-footer"> PROYECTOS </a>
+                            <a href="#mis-proyectos" class="link-footer"> PROYECTOS </a>
                         </li>
                         <li class="item-footer"> 
-                            <a href="" class="link-footer"> CONTACTO </a>
+                            <a href="#contacto" class="link-footer"> CONTACTO </a>
                         </li>
                     </ul>
                 </nav>
 
+                <ul class="redes-footer-links">
+                    <li class="redes-item"> 
+                        <a href class="redes-link-twitter" aria-label="Twitter">
+                            <i class="fab fa-twitter"> </i>
+                        </a>
+                    </li>
+
+                    <li class="redes-item">
+                        <a href class="redes-link-github" aria-label="Github">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+
+                    <li class="redes-item">
+                        <a href class="redes-link-linkedin" aria-label="Linkedin">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+
+                    <li class="redes-item">
+                        <a href class="redes-link-mail" aria-label="Email">
+                          
+                        </a>
+                    </li>
+
+                </ul>
+
 
             <p class="hecho">
-                <i class="fab fa-twitter"></i>
+                
                 <br>
                 Hecho con ❤️ por Lorena Delgado
             </p>
