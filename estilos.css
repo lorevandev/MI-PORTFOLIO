@@ -444,6 +444,7 @@ h2{
     margin-top: 3%;
     border-radius: 15px;
     border: 2px solid goldenrod;
+    margin-bottom: 2%;
 }
 
 .parte-5{
@@ -647,5 +648,45 @@ textarea:hover{
 
 .btn:hover{
     background-color: rgb(106, 95, 211);
+    color: white;
+}
+
+                 /** PARTE 6 **/
+                 /** FOOTER **/
+
+          /** Container general **/
+          
+    .container-foot{
+        display: flex;
+        margin-bottom: 0em;
+        background-color: darkgoldenrod;
+    }
+
+    .parte-6{
+        box-shadow: 2px 2px 8px goldenrod; 
+        background-color: darkgoldenrod;
+        width: 100%;
+    }
+
+.menu-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 32%;
+    margin-right: 32%;
+    margin-top: 4%;
+    font-size: 1em;
+}
+
+.link-footer{
+    color: white;
+    font-family:'Quicksand', sans-serif;
+}
+
+.hecho{
+    text-align: center;
+    font-family:'Quicksand', sans-serif;
+    font-size: 1em;
     color: white;
 }
