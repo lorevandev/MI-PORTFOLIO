@@ -30,29 +30,151 @@
         }
 
         @media screen and (max-width: 576px){
+
             .barra{
+                display: flex;
+                width: 24%;
+                height: 3em;
+                flex-direction: row;
+                justify-content:space-between;
+                font-size: small;
+                padding: 0px;
+                margin:0px;
+            }
+
+            .boton{
+                width: 100px;
+                justify-content: center;
+                /** background-color: cornsilk; **/
+            }
+
+            .boton-contacto{
+                width: 100px;
+                font-size: small;
+                justify-content: space-between;
+                align-items: center;
+                border-radius: 50px;
+                margin-right: 1em;
+            }
+
+            .boton-contacto:hover{
+                background-color: cornflowerblue;
+            }
+
+            .aheader-contacto{
+                margin-left: 1em;
+            }
+
+            .aheader{
+                margin-right: 1em;
+            }
+
+            .aconoc{
+                margin-right: 2em;
+            }
+
+            .contenedor-principal{
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+                padding-top:30px;
+                padding-bottom: 2em;
+            }
+
+            .saludo{
+                font-size: 20px;
+                text-align: center;
+                margin-left: 5em;
+            }
+
+            .nombre{
+                font-size: 30px;
+                width: 10em;
+                margin-left: 1em;
+                text-align: center;
+            }
+
+            .descrip{
+                font-size: 20px;
+                text-align: center;
+                width: 20em;
+                margin-left: -20px;
+            }
+            
+            .loquehago{
+                display: none;
+            }
+            
+            .about-img{
+                max-width: 300px;
+                margin-top: 1em;
+                margin-left: 1em;
+            }
+
+            
+
+
+
+            .container-parrafo{
                 width: 75%;
             }
-        
-            .contenedor-principal{
-                .about-img{
-                    width: 5%;
-                    height: 3%;
-                }
+
+            .comilla{
+                font-size: 5em;
             }
 
-
-            .container-conocimientos{
-                width: 100%;
+            .texto{
+                font-size: 1.1em;
+                margin-right: 2em;
+                margin-left: 2em;
             }
-        
 
-            .container-foot{
-                width: 300%;
+            .autor{
+                font-size: 1.3em;
+            }
+
+            
+            .container-foot{  
+                width: 75%;
+            }
+
+            .menu-footer{
+                margin-left: 0px;
+                margin-right: 0px;
+                padding-left: 1em;
+            }
+
+            .link-footer{
                 
+                font-size: 0.8em;
+               
+            }
+
+            .redes-footer-links{
+                margin-left: 10%;
+                margin-right: 10%;
+                justify-content: space-between;
+            }
+
+            .container-form{
+                display: flex;
+                
+                width: 100%;
+                margin-left: 0px;
+                margin-right: 0px;
+            } 
+
+            
+            .container-cajas-proy{
+                width: 25%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
             }
         
-        
+
+
+
         }
 
 
@@ -72,7 +194,7 @@
                         <a href="#informacion" class="aheader"> INICIO </a>
                     </li>
                     <li class="boton">
-                        <a href="#mis-conocimientos" class="aheader"> CONOCIMIENTOS </a>
+                        <a href="#mis-conocimientos" class="aheader aconoc"> CONOCIMIENTOS </a>
                     </li>
                     <li class="boton"> 
                         <a href="#mis-proyectos" class="aheader"> PROYECTOS </a>
@@ -363,12 +485,11 @@
 
                     <li class="redes-item">
                         <a href class="redes-link-mail" aria-label="Email">
-                          
+                            <i class="fas fa-envelope"></i>
                         </a>
                     </li>
 
                 </ul>
-
 
             <p class="hecho">
                 
@@ -378,14 +499,8 @@
 
             </div>
         </section>
-
-
-
-
     </div>
 
-
-
-    
+  
 </body>
 </html>

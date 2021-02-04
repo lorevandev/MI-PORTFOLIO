@@ -40,6 +40,7 @@ ul, li{
    /** margin-left: 50px; **/
     font-weight: bold;
     cursor:pointer;
+    /** background-color: chartreuse; **/
 }
 
 .boton-contacto{
@@ -125,6 +126,7 @@ p{
     font-size: 60px;
     margin-left: 50px;
     margin-bottom: 1px;
+    
 }
 
 h1{
@@ -685,6 +687,11 @@ textarea:hover{
 .link-footer{
     color:white;
     font-family:'Quicksand', sans-serif;
+}
+
+.link-footer:hover{
+    color:darkblue;
+    font-weight: 800;
 }
 
 
