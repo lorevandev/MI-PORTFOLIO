@@ -31,8 +31,8 @@ ul, li{
 }
 
 .boton{
-    width: 175px;
-    height: 40px;
+    width: 10.93em;
+    height: 2.5em;
     text-align: center;
     display: flex;
     justify-content: space-evenly; 
@@ -44,9 +44,9 @@ ul, li{
 }
 
 .boton-contacto{
-    width: 155px;
-    height: 40px;    
-    border-radius: 100px;
+    width: 9.68em;
+    height: 2.5em;    
+    border-radius: 6.25em;
     text-decoration: none;
     background-color: rgb(106, 95, 211); 
     text-align: center;
@@ -84,7 +84,7 @@ a:link{
 }
 
 li.boton{
-    margin-right:3px;
+    margin-right: 0.19em;
 }
 
 /** CONTENEDOR PRINCIPAL - INFORMACION **/
@@ -94,7 +94,9 @@ li.boton{
     flex-direction: row;
     width:100%;
     justify-content:center;
-    padding: 120px 30px;
+    padding: 7.5em 1.87em;
+
+  
     /**background-color:darksalmon; **/
 }
 
@@ -107,9 +109,9 @@ li.boton{
 
 .saludo{
     font-weight: 800;
-    font-size: 30px;
-    margin-left: 50px;
-    margin-bottom: 1px;
+    font-size: 1.87em;
+    margin-left: 3.12em;
+    margin-bottom: 0.063em;
     /** background-color: darkorange; **/
 }
 
@@ -123,9 +125,9 @@ p{
 
 .nombre{
     color: rgb(106, 95, 211); 
-    font-size: 60px;
-    margin-left: 50px;
-    margin-bottom: 1px;
+    font-size: 3.75em;
+    margin-left: 0.8em;
+    margin-bottom: 0.063em;
     
 }
 
@@ -143,24 +145,24 @@ h1{
 
 .descrip{
     color:rgb(212, 132, 11);
-    font-size: 30px;
+    font-size: 1.875em;
     font-style: italic;
     font-family: cursive;
     font-weight: 500;
-    margin-left: 50px;
-    margin-top: 2px;
+    margin-left: 1.5em;
+    margin-top: 0.125em;
    /** background-color: aqua; **/
 }  
 
 .loquehago{
     color: white;
-    margin-left: 50px;
+    margin-left: 1.5em;
     background-color:coral;
 }
 
 #boton-info{
-    margin-left:50px;
-    margin-top: -5px;
+    margin-left: 2.8em;
+    margin-top: -0.31em;
 }
 
 /**
@@ -170,8 +172,8 @@ h1{
 }  **/
 
 .about-img{
-    max-width: 700px;
-    margin-top: 50px;
+    max-width: 43.75em;
+    margin-top: 1em;
 } 
 
 
@@ -184,11 +186,11 @@ h1{
 }
 
 #mis-conocimientos{
-    font-size: 45px;
+    font-size: 2.81em;
     font-weight: 900;
     text-align: center;
-    padding-top: 90px;
-    padding-bottom: 30px;
+    padding-top: 1.5em;
+    padding-bottom: 0.8em;
     font-family: 'Nunito', sans-serif;    
 }
 
@@ -196,7 +198,7 @@ h1{
     text-align: center;
     padding-left: 33%;
     padding-right: 33%;
-    padding-bottom: 15px;
+    padding-bottom: 0.3em;
     font-weight: lighter;
 }
 
@@ -211,7 +213,7 @@ h2{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 1000px;
+    width: 62.5em;
     margin-left: auto;
     margin-right: auto;
     padding: 2em;
@@ -227,8 +229,8 @@ h2{
     justify-content: center; 
     flex-direction: column;
     align-items: flex-start;
-    width: 260px;
-    height: 230px;
+    width: 16.25em;
+    height: 14.37em;
     border-radius: 10%;
     margin:0.5em;
     margin-top:2em;
@@ -241,9 +243,9 @@ h2{
 }
 
 .devicon-html5-plain{
-    font-size: 100px;
-    padding-left: 80px;
-    padding-top: 40px;
+    font-size: 6.25em;
+    padding-left: 0.8em;
+    padding-top: 0.4em;
 }
 
 .skills-html{
@@ -255,9 +257,9 @@ h2{
 }
 
 .devicon-css3-plain{
-    font-size: 100px;
-    padding-left: 80px;
-    padding-top: 40px;
+    font-size: 6.25em;
+    padding-left: 0.8em;
+    padding-top: 0.4em;
 }
 
 .skills-css{
@@ -268,9 +270,9 @@ h2{
 }
 
 .devicon-sass-original{
-    font-size: 100px;
-    padding-left: 80px;
-    padding-top: 40px;
+    font-size: 6.25em;
+    padding-left: 0.8em;
+    padding-top: 0.4em;
 }
 
 .skills-sass{
@@ -281,23 +283,23 @@ h2{
 }
 
 .devicon-javascript-plain{
-    font-size: 100px;
-    padding-left: 80px;
-    padding-top: 40px;
+    font-size: 6.25em;
+    padding-left: 0.8em;
+    padding-top: 0.4em;
 }
 
 .skills-js{
     font-size: 1.25em;
     font-weight: 700;
-    padding-left: 78px;
+    padding-left: 4em;
     text-align: center;
     position: relative;
 }
 
 .devicon-react-original{
-    font-size: 100px;
-    padding-left: 80px;
-    padding-top: 40px;
+    font-size: 6.25em;
+    padding-left: 0.8em;
+    padding-top: 0.4em;
 }
 
 .skills-react{
@@ -308,9 +310,9 @@ h2{
 }
 
 .devicon-git-plain{
-    font-size: 100px;
-    padding-left: 80px;
-    padding-top: 40px;
+    font-size: 6.25em;
+    padding-left: 0.8em;
+    padding-top: 0.4em;
 }
 
 .skills-git{
@@ -377,11 +379,11 @@ h2{
 }
 
 #mis-proyectos{
-    font-size: 45px;
+    font-size: 2.81em;
     font-weight: 900;
     text-align: center;
-    padding-top: 70px;
-    padding-bottom: 30px;
+    padding-top: 1.5em;
+    padding-bottom: 0.8em;
     font-family: 'Nunito', sans-serif; 
 }
 
@@ -389,7 +391,7 @@ h2{
     text-align: center;
     padding-left: 33%;
     padding-right: 33%;
-    padding-bottom: 15px;
+    padding-bottom: 0.3em;
     font-weight: lighter;
 }
 
@@ -399,7 +401,7 @@ h2{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 1000px;
+    width: 62.5em;
     margin-left: auto;
     margin-right: auto;
     padding: 1em;
@@ -415,8 +417,8 @@ h2{
     justify-content: center; 
     flex-direction: column;
     align-items: center;
-    width: 300px;
-    height: 310px;
+    width: 18.75em;
+    height: 19.37em;
     border-radius: 3%;
     border: 5px solid goldenrod;
     margin:0.5em;
@@ -471,10 +473,10 @@ h2{
 }
 
 #contacto{
-    font-size: 45px;
+    font-size: 2.81em;
     text-align: justify;
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
     padding-left: 10%;
     /** font-family: 'Nunito', sans-serif; **/
     font-family: 'Quicksand', sans-serif;
@@ -483,7 +485,7 @@ h2{
             
 .descri-form{
     text-align: justify;
-    padding-bottom: 15px;
+    padding-bottom: 0.93em;
     padding-left: 10%;
     padding-right: 10%;
     font-weight: lighter;
@@ -499,10 +501,10 @@ h2{
 } 
 
 .devicon-twitter-original{
-    font-size: 20px;
-    padding-left: 80px;
-    padding-top: 40px;
-    margin-right: 12px;
+    font-size: 1.20em;
+    padding-left: 4em;
+    padding-top: 2.5em;
+    margin-right: 0.75em;
 }
 
 .cont-github{
@@ -512,10 +514,10 @@ h2{
 }
 
 .devicon-github-original{
-    font-size: 25px;
-    padding-left: 80px;
-    padding-top: 40px;
-    margin-right: 12px;
+    font-size: 1.25em;
+    padding-left: 4em;
+    padding-top: 2.5em;
+    margin-right: 0.75em;
 }
 
 .cont-link{
@@ -525,10 +527,10 @@ h2{
 }
 
 .devicon-linkedin-plain{
-    font-size: 25px;
-    padding-left: 80px;
-    padding-top: 40px;
-    margin-right: 12px;
+    font-size: 1.25em;
+    padding-left: 4em;
+    padding-top: 2.5em;
+    margin-right: 0.75em;
 }
 
 .cont-mail{
@@ -538,10 +540,10 @@ h2{
 }
 
 .fa-envelope{
-    font-size: 25px;
-    padding-left: 80px;
-    padding-top: 2px;
-    margin-right: 12px;
+    font-size: 1.25em;
+    padding-left: 4em;
+    padding-top: 0.2em;
+    margin-right: 0.75em;
 }
 
    /** Texto de iconos **/
@@ -584,7 +586,7 @@ textarea{
 .nombre-ape{
     display: flex;
     flex-direction: row;
-    padding-right: 5px;
+    padding-right: 0.31em;
     justify-content: space-between;
 }
 
@@ -641,9 +643,9 @@ textarea:hover{
 .btn{
     font-family: 'Poppins', sans-serif;
     font-size: 1.1em;
-    width: 155px;
-    height: 50px;
-    border-radius: 100px;
+    width: 9.68em;
+    height: 3.12em;
+    border-radius: 6.25em;
     text-decoration: none;
     background-color:  hsl(46, 92%, 65%);
 }
