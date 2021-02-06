@@ -437,6 +437,12 @@ h2{
     border: 4px solid rgb(106, 95, 211); 
 }
 
+.item-proy:hover{
+    color: blue;
+}
+
+
+
              /** PARTE 5 **/
              /** FORMULARIO **/ 
 
@@ -497,14 +503,15 @@ h2{
     display: flex;
     flex-direction: row;
     justify-content:left;
-    /** background-color:darkkhaki: **/
+    /** background-color:darkkhaki; **/
 } 
 
 .devicon-twitter-original{
-    font-size: 1.20em;
+    font-size: 1.2em;
     padding-left: 4em;
     padding-top: 2.5em;
     margin-right: 0.75em;
+    /** background-color: aquamarine; **/
 }
 
 .cont-github{
@@ -542,7 +549,7 @@ h2{
 .fa-envelope{
     font-size: 1.25em;
     padding-left: 4em;
-    padding-top: 0.2em;
+    padding-top: 0.1em;
     margin-right: 0.75em;
 }
 
@@ -552,6 +559,7 @@ h4{
     font-weight:lighter;
     font-family: 'Quicksand', sans-serif;
     font-size: 1.1em;
+    cursor: pointer;
 }
 
 h4:hover{
@@ -620,6 +628,8 @@ input, textarea{
     border: 1px solid #f6f7fb;
     outline: none;
     box-shadow: 1px 1px 8px goldenrod;
+    padding-left: 1.5em;
+    font-family: 'Poppins', sans-serif;
 }
 
 input:hover{
@@ -629,6 +639,12 @@ border: 1px solid rgb(106, 95, 211);
 textarea:hover{
     border: 1px solid rgb(106, 95, 211);
 }
+
+#idMensaje{
+    padding-top: 1em;
+    font-family: 'Poppins', sans-serif;
+}
+
 
  /** BOTON ENVIAR **/
 
@@ -648,12 +664,16 @@ textarea:hover{
     border-radius: 6.25em;
     text-decoration: none;
     background-color:  hsl(46, 92%, 65%);
+    padding-left: 0.9em;
 }
 
 .btn:hover{
     background-color: rgb(106, 95, 211);
     color: white;
 }
+
+
+
 
                  /** PARTE 6 **/
                  /** FOOTER **/
@@ -699,25 +719,36 @@ textarea:hover{
 
 /** ICONOS REDES SOCIALES - FOOTER **/ 
 
-.fa-twitter, .fa-github, .fa-linkedin{
+.fa-twitter, .fa-github, .fa-linkedin, .fa-at{
     border:0.5em solid white;
     background-color: white;
     border-radius: 50%;
     font-size: 1.4em;;
 }
 
+/** Color original azul - se cambia a violeta **/
+.fa-at{
+    color:#520252de;
+}
+
 .fa-twitter:hover{
-    background-color:  darkgoldenrod; 
-    border: 0.5em solid white;
+    background-color:  white;
+    color:blue;
 }
 
 .fa-github:hover{
-    background-color:  darkgoldenrod;
+    background-color:  white;
+    color:blue;
 }
 
-
 .fa-linkedin:hover{
-    background-color:  darkgoldenrod;
+    background-color:  white;
+    color:blue;
+}
+
+.fa-at:hover{
+    background-color: white;
+    color: blue;
 }
 
      /** Alineacion iconos **/
@@ -739,10 +770,13 @@ li{
     /** Texto hecho con ❤️ **/
 
 .hecho{
+    width: 100%;
     text-align: center;
     font-family:'Quicksand', sans-serif;
     font-size: 1em;
     color: white;
     margin-bottom: 5%;
+    margin-left: 3em;
 }
+   
 
