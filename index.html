@@ -8,256 +8,23 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
     <script src="https://kit.fontawesome.com/b84c746983.js" crossorigin="anonymous"></script>
     
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@700&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap');
-        h2{
-            font-family: 'Nunito', sans-serif;
-        }
-
-        .item-skills{
-            font-family: 'Poppins', sans-serif;
-        }
-
-        .comilla{
-            font-family: 'Catamaran', sans-serif;
-        }
-
-        .texto, .autor{
-            font-family: 'Quicksand', sans-serif;
-        }
-
-        /**
-
-        @media screen and (max-width: 350px){
-
-            .barra{
-                display: flex;
-                width: 85%;
-                height: 3em;
-                flex-direction: row;
-                justify-content:space-between;
-                font-size: small;
-                padding: 0px;
-                margin:0px;
-            }
-
-            .boton{
-                width: 100px;
-                justify-content: center;
-                margin-right: 2em;
-                /** background-color: cornsilk; 
-            }
-
-            .boton-contacto{
-                width: 100px;
-                font-size: small;
-                justify-content: space-between;
-                align-items: center;
-                border-radius: 50px;
-                margin-right: 3em;
-            }
-
-            .boton-contacto:hover{
-                background-color: cornflowerblue;
-            }
-
-            .aheader-contacto{
-                margin-left: 1em;
-            }
-
-            .aheader{
-                margin-right: 1em;
-            }
-
-            .aconoc{
-                margin-right: 2em;
-            }
-
-            .contenedor-principal{
-                display: flex;
-                flex-direction: column;
-                width: 100%;
-                padding-top:30px;
-                padding-bottom: 2em;
-            }
-
-            .saludo{
-                font-size: 1.5em;
-                text-align: center;
-                margin-left:-5em;
-            }
-
-            .nombre{
-                font-size: 2.5em;
-                width: 10em;
-                margin-left: 0.5%;
-                text-align: center;
-            }
-
-            .descrip{
-                font-size: 1.5em;
-                text-align: center;
-                width: 20em;
-                margin-left: -1.8em;
-            }
-            
-            .loquehago{
-                display: none;
-            }
-            
-            .about-img{
-                max-width: 20em;
-                margin-top: 1em;
-                margin-left: 4em;
-            }
-
-            .container-conocimientos{
-                width: 150%;
-                padding-bottom: 1.5em;
-                padding-left: 1em;
-            }
-
-            #mis-conocimientos{
-                font-size: 2.4em;
-                padding-top: 1em; 
-                padding-left: -3em;
-            }
-
-            .descri-conoc{
-                font-size: 1.1em;
-                padding-right: 8%;
-                padding-left: 8%;
-            }
-
-            .container-cajas{
-                font-size: 45%;
-                margin-left: 1em;
-            }
-
-            .container-parrafo{
-                width: 150%;
-            }
-
-            .comilla{
-                font-size: 6em;
-                margin-right: 0.4em;
-            }
-
-            .texto{
-                font-size: 1.1em;
-                margin-right: 3em;
-                margin-left: 1em;
-            }
-
-            .autor{
-                font-size: 1.4em;
-            }
-
-            .container-proy{
-                width: 150%;
-                padding-bottom: 0.2em;
-                padding-left: 1em;
-            }
-
-            
-            #mis-proyectos{
-                font-size: 2.4em;
-                padding-top: 1em;
-            }
-
-            .descri-proy{
-                font-size: 1.1em;
-                padding-right: 15%;
-                padding-left: 15%;
-            }
-
-            .container-cajas-proy{
-                font-size: 40%;
-                margin-left: 5em;
-            }
-
-
-            .project-portfolio{
-                width: 15em;
-                height: 8em;
-            }
-
-            .project-calculadora, .project-calendar, 
-            .project-appmobile, .project-appclima, 
-            .project-online-learning{
-                width: 20em;
-                height: 12em;
-            }
-
-
-
-            .container-form{
-                width: 100%;
-                margin-left: 0px;
-            }
-
-            .parte-contacto{
-                width: 50%;
-                background-color: cyan;
-                flex-wrap: wrap;
-            }
-
-            .parte-formulario{
-                width: 50%;
-                background-color: darkkhaki;
-            }
-
-            .container-foot{  
-                width: 85%;
-            }
-
-            .menu-footer{
-                width: 85%;
-                margin-left: 0.5%;
-                margin-right: 1.5%;
-            }
-
-            .link-footer{
-                font-size: 1em;
-            }
-
-            .redes-footer-links{
-                margin-left: 10%;
-                margin-right: 10%;
-                justify-content: space-between;
-            }
-
-            .hecho{
-                font-size: 1.1em;
-                text-align: center;
-            }
-        }
-
-        **/
-     
-    </style>
 </head>
+
 <body>
 
-    <header class="header">
+    <header>
         <div class="container"> 
             <nav id="menu">
                 <ul class="barra"> 
-                    <li class="boton"> 
-                        <a href="#informacion" class="aheader"> INICIO </a>
-                    </li>
-                    <li class="boton">
-                        <a href="#mis-conocimientos" class="aheader aconoc"> CONOCIMIENTOS </a>
-                    </li>
-                    <li class="boton"> 
+                    
+                        <a href="#contenedor-principal" class="aheader"> INICIO </a>
+                    
+                        <a href="#mis-conocimientos" class="aheader"> CONOCIMIENTOS </a>
+                   
                         <a href="#mis-proyectos" class="aheader"> PROYECTOS </a>
-                    </li>
-                    <li class="boton-contacto"> 
+                    
                         <a href="#contacto" class="aheader-contacto"> CONTACTO </a>
-                    </li>
+                   
                 </ul>
                 <a name="mis-conocimientos"> </a>
             </nav>
@@ -266,7 +33,7 @@
  
                         <!-- Sección Saludo -->
 
-    <div class="contenedor-principal">
+    <div id="contenedor-principal">
         <section class="parte-1"> 
 
             <div id="informacion"> 
@@ -276,17 +43,13 @@
                 Desarrolladora, apasionada por la tecnología y fan de la pastelería.
                 </p>
             
-            <a href="index.html" class="loquehago">
-                <p class="boton-contacto" id="boton-info"> LO QUE HAGO </p>
-            </a>
+                <a href="#mis-proyectos" id="boton-info"> LO QUE HAGO </a>
             </div>
-        </section>
-
-        <section> 
-            <div class="imagen">     
-                <img src="imagenes/undraw_proud_coder_7ain.svg" alt class="about-img">
-            </div>
-        <section> 
+        
+              
+                <img src="imagenes/undraw_proud_coder_7ain.svg" class="imagen">
+            
+        </section> 
     </div>
                     <!-- Sección Conocimientos -->
     
@@ -296,43 +59,43 @@
                             <!-- Titulos -->
             <div class="parte-conocimientos">
                 <h2 id="mis-conocimientos"> Mis Conocimientos </h2>
-                <h3 class="descri-conoc"> 
+                <p class="descri-conoc"> 
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Beatae eaque neque molestias consequuntur vel ab quas architecto.
-                </h3>
+                </p>
             </div>
         
                             <!-- CAJAS -->  
             <div class="container-cajas">
                 
-                <div class="item-skills" id="skills-hov">  
+                <div class="item-skills">  
                     <i class="devicon-html5-plain colored"></i> 
-                    <p class="skills-html"> HTML5 </p>
+                    <p> HTML5 </p>
                 </div>
 
-                <div class="item-skills" id="skills-hov"> 
+                <div class="item-skills"> 
                     <i class="devicon-css3-plain colored"></i>
-                    <p class="skills-css"> CSS3 </p>
+                    <p> CSS3 </p>
                 </div>
                
-                <div class="item-skills" id="skills-hov"> 
+                <div class="item-skills"> 
                     <i class="devicon-sass-original colored"></i>
-                    <p class="skills-sass"> SASS </p>
+                    <p> SASS </p>
                 </div>
 
-                <div class="item-skills" id="skills-hov"> 
+                <div class="item-skills"> 
                     <i class="devicon-javascript-plain colored"></i>
-                    <p class="skills-js"> Javascript</p>
+                    <p> Javascript</p>
                 </div>
 
-                <div class="item-skills" id="skills-hov">
+                <div class="item-skills">
                     <i class="devicon-react-original colored"></i>
-                    <p class="skills-react"> React</p>
+                    <p> React</p>
                 </div>
 
-                <div class="item-skills" id="skills-hov"> 
+                <div class="item-skills"> 
                     <i class="devicon-git-plain colored"></i>
-                    <p class="skills-git"> GIT </p>
+                    <p> GIT </p>
                 </div>
             </div>
         </section>
@@ -366,42 +129,43 @@
         <section class="parte-4">
             <div class="parte-proyectos">
                 <h2 id="mis-proyectos"> Mis Proyectos </h2>
-                <h3 class="descri-proy"> 
+                <p class="descri-proy"> 
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Eaque quo nobis voluptatum tenetur! Id, nesciunt?
+                    Eaque quo nobis voluptatum tenetur! Id, nesciunt? 
+                </p>
             </div>
 
             <div class="container-cajas-proy">
                 
-                <div class="item-proy" id="proy-hov">  
-                    <img src="imagenes/portfolio.svg" alt class="project-portfolio" width= "250px" height="140px">
+                <a href="#" class="item-proy">  
+                    <img src="imagenes/portfolio.svg" alt class="project-portfolio" width= "80%">
                     <p class="proy-name proy-port"> Portfolio </p>
-                </div>
+                </a>
 
-                <div class="item-proy" id="proy-hov"> 
-                    <img src="imagenes/calculadora.svg" alt class="project-calculadora" width="250px">
+                <a href="#" class="item-proy"> 
+                    <img src="imagenes/calculadora.svg" alt class="project-calculadora" width="80%">
                     <p class="proy-name"> App Calculadora </p> 
-                </div>
+                </a>
                
-                <div class="item-proy" id="proy-hov"> 
-                    <img src="imagenes/calendar.svg" alt class="project-calendar" width="280px">
+                <a href="#" class="item-proy">  
+                    <img src="imagenes/calendar.svg" alt class="project-calendar" width="80%">
                     <p class="proy-name"> App Calendar </p> 
-                </div>
+                </a>
 
-                <div class="item-proy" id="proy-hov"> 
-                    <img src="imagenes/mobile-app.svg" alt class="project-appmobile" width="250px"> 
+                <a href="#" class="item-proy">  
+                    <img src="imagenes/mobile-app.svg" alt class="project-appmobile" width="80%"> 
                     <p class="proy-name"> App Mobile </p> 
-                </div>
+                </a>
 
-                <div class="item-proy" id="proy-hov">
-                    <img src="imagenes/app-clima.svg" alt class="project-appclima" width="280px">
+                <a href="#" class="item-proy">
+                    <img src="imagenes/app-clima.svg" alt class="project-appclima" width="80%">
                     <p class="proy-name">  App Clima</p> 
-                </div>
+                </a>
 
-                <div class="item-proy" id="proy-hov"> 
-                    <img src="imagenes/online-learning.svg" alt class="project-online-learning" width="280px">
+                <a href="#" class="item-proy"> 
+                    <img src="imagenes/online-learning.svg" alt class="project-online-learning" width="80%">
                     <p class="proy-name"> Online Learning </p> 
-                </div>
+                </a>
             
             </div>
         </section>
@@ -415,48 +179,39 @@
 
             <div class="parte-contacto">
                 <h2 id="contacto"> Contactame </h2>
-                <h3 class="descri-form">
+                <p class="descri-form">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Eaque quo nobis voluptatum tenetur! Id, nesciunt? 
                     Modi quasi repudiandae quam hic quo, qui cumque nam voluptates, 
                     ipsam, tempora eaque numquam eligendi.
-                </h3> <br> <br>
+                </p> 
+                <div class="redes-sociales">
+                    <ul class="cont-redes"> 
+                        <li class="redes">
+                            <a href="https://twitter.com/LorevanBaires" target="blank" aria-label="Twitter" class="logo-form">
+                                <i class="devicon-twitter-original colored"></i> @LorevanBaires
+                            </a>
+                        </li>
+                        <li class="redes">
+                            <a href="https://github.com/lorevandev" class="logo-form"> 
+                                <i class="devicon-github-original colored"></i> lorevandev
+                            </a>
+                        </li>
+                      
+                        <li class="redes">
+                            <a href="https://www.linkedin.com/in/lorevandelgado/" class="logo-form">
+                                <i class="devicon-linkedin-plain colored"></i> lorevandelgado
+                            </a>
+                        </li>
 
-                <div class="cont-twitter">
-                    <div class="logo-form">
-                        <i class="devicon-twitter-original colored"></i>
-                    </div>
-                    <div class="arroba-form"> 
-                        <h4 class="twitter"> @LorevanBaires </h4>
-                    </div>
-                </div> <br> 
-
-                <div class="cont-github">
-                    <div class="logo-form">
-                        <i class="devicon-github-original colored"></i>
-                    </div> 
-                    <div class="arroba-form">
-                        <h4 class="github" a href="https://github.com/lorevandev"> lorevandev </a> </h4>
-                    </div>
-                </div> <br> 
-
-                <div class="cont-link">
-                    <div class="logo-form">
-                        <i class="devicon-linkedin-plain colored"></i>
-                    </div> 
-                    <div class="arroba-form">
-                        <h4 class="linkedin"> lorevandelgado </h4>
-                    </div>
-                </div> <br>
-
-                <div class="cont-mail">
-                    <div class="logo-form"> 
-                        <i class="far fa-envelope"> </i>
-                    </div>
-                        <h4 a class="mail" href="mailto:lorevan.baires@gmail.com"> lorevan.baires@gmail.com </h4> 
+                        <li class="redes">
+                            <a href="mailto:lorevan.baires@gmail.com" class="logo-form">
+                                <i class="far fa-envelope"> </i> lorevan.baires@gmail.com 
+                            </a>
+                        </li>
+                    </ul>                
                 </div>
             </div>
-
                     <!--PARTE ESCRIBIME -->
 
             <div class="parte-formulario">

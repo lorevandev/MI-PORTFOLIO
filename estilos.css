@@ -1,3 +1,23 @@
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap');
+        h2{
+            font-family: 'Nunito', sans-serif;
+        }
+
+        .item-skills{
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .comilla{
+            font-family: 'Catamaran', sans-serif;
+        }
+
+        .texto, .autor{
+            font-family: 'Quicksand', sans-serif;
+        }
+
 *{
     margin: 0px;
     box-sizing: border-box;
@@ -12,7 +32,7 @@ body{
 
 .barra{
     width: 100%;
-    height: 4em;
+    /**height: 4em; **/
     background-color: rgb(250, 211, 111);
     /** background-color: rgb(238, 198, 98); **/
     /** background-color: rgb(203, 206, 238); **/
@@ -23,16 +43,14 @@ body{
     list-style: none;
     position: fixed;
     box-shadow: 2px 2px 8px goldenrod;
-    padding-right: 3em;
+   /** padding-right: 3em; **/
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
 }
 
-ul, li{
-    margin-right: -15px;
-}
-
-.boton{
-    width: 10.93em;
-    height: 2.5em;
+.barra a{
+    /**width: 10.93em;
+    height: 2.5em; **/
     text-align: center;
     display: flex;
     justify-content: space-evenly; 
@@ -40,108 +58,90 @@ ul, li{
    /** margin-left: 50px; **/
     font-weight: bold;
     cursor:pointer;
+    margin-left: 3rem;
     /** background-color: chartreuse; **/
-}
-
-.boton-contacto{
-    width: 9.68em;
-    height: 2.5em;    
-    border-radius: 6.25em;
-    text-decoration: none;
-    background-color: rgb(106, 95, 211); 
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    /**margin-left: 50px; **/
-    font-weight: bold;
-}
-
-.boton-contacto:hover{
-    background-color: cornflowerblue;
 }
 
 a:link{
     text-decoration: none;
 }
 
-.boton-contacto a:hover{
-    color: brown;
+.aheader-contacto{
+    color:white;
+    background-color: rgb(106, 95, 211); 
+    border-radius: 6.25em;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+}
+
+.aheader-contacto:hover{
+    background-color: cornflowerblue;
+    color: brown;   
 }
 
 .aheader{
     color:black;
-    text-decoration: none;
 }
 
 .aheader:hover{
     color:  rgb(106, 95, 211); 
 }
 
-.aheader-contacto{
-    color:white;
-    text-decoration: none;
-}
-
-li.boton{
-    margin-right: 0.19em;
-}
-
 /** CONTENEDOR PRINCIPAL - INFORMACION **/
 
-.contenedor-principal{
+#contenedor-principal{
+    
     display:flex;
     flex-direction: row;
-    width:100%;
     justify-content:center;
-    padding: 7.5em 1.87em;
+    padding-top: 8em;
+    padding-bottom: 8em;
+ 
+    /** background-color:darksalmon; **/
+}
 
-  
-    /**background-color:darksalmon; **/
+.parte-1{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   /** background-color: brown; **/
 }
 
 .informacion{
+    width: 45%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
+    text-align: left;
 }
 
 .saludo{
     font-weight: 800;
     font-size: 1.87em;
-    margin-left: 3.12em;
+    
     margin-bottom: 0.063em;
     /** background-color: darkorange; **/
 }
 
 p{
-    display: block;
+    /**display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin-inline-end: 0px; **/
 }
 
 .nombre{
     color: rgb(106, 95, 211); 
     font-size: 3.75em;
-    margin-left: 0.8em;
-    margin-bottom: 0.063em;
-    
-}
-
-h1{
     font-weight: 800;
-    display: block;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;  
-}  
-
-:-webkit-any(article,aside,nav,section) h1{
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-} 
+    /*margin-left: 0.8em; */
+    margin-bottom: 0.063em;
+   
+}
 
 .descrip{
     color:rgb(212, 132, 11);
@@ -149,32 +149,32 @@ h1{
     font-style: italic;
     font-family: cursive;
     font-weight: 500;
-    margin-left: 1.5em;
+    /**margin-left: 1.5em; **/
     margin-top: 0.125em;
+    margin-bottom: 2rem;
    /** background-color: aqua; **/
 }  
 
-.loquehago{
-    color: white;
-    margin-left: 1.5em;
-    background-color:coral;
-}
 
 #boton-info{
-    margin-left: 2.8em;
-    margin-top: -0.31em;
+
+    color:white;
+    background-color: rgb(106, 95, 211); 
+    border-radius: 6.25em;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+       
 }
 
-/**
-.imagen{
-    display: block;
-    width: 100%;
-}  **/
 
-.about-img{
+.imagen{
+    width: 50%;
+}  
+
+/** .about-img{
     max-width: 43.75em;
     margin-top: 1em;
-} 
+}  **/
 
 
 /** PARTE 2 **/
@@ -183,6 +183,7 @@ h1{
 .container-conocimientos{
     background-color: hsl(46, 92%, 65%); 
     box-shadow: 2px 2px 8px goldenrod;
+    padding-bottom: 4rem;
 }
 
 #mis-conocimientos{
@@ -201,126 +202,59 @@ h1{
     padding-bottom: 0.3em;
     font-weight: lighter;
 }
-
+/**
 h2{
     display: block;
-}
+} **/
 
 /** CAJAS **/
 
 .container-cajas{
     /** background-color: cornflowerblue; **/
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     flex-wrap: wrap;
-    width: 62.5em;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2em;
-    margin:auto;
+    margin-left: 15em;
+    margin-right: 15em;
+    
 }
  
 .item-skills{
     
     width: 14em;
-    height: 12em;
+    /**height: 12em; **/
     background-color: white;
     display: flex;
-    justify-content: center; 
+    /** justify-content: center;  **/
     flex-direction: column;
-    align-items: flex-start;
-    width: 16.25em;
-    height: 14.37em;
+    align-items: center;
+    /** width: 16.25em;
+    height: 14.37em; **/
     border-radius: 10%;
-    margin:0.5em;
-    margin-top:2em;
-    margin-bottom: 2em;
+    margin:0.5em; 
+    margin-top:2em; 
+    margin-bottom: 2em; 
 }
 
+.item-skills i{
+    font-size: 6.25em;
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
+}
 
-#skills-hov:hover{
+.item-skills p{
+    font-size: 1.25em;
+    padding-bottom: 0.3em;
+}
+
+.item-skills:hover{
     border: 5px solid goldenrod;
+} 
+
+.item-skills:hover p{
+    color:darkblue;
 }
 
-.devicon-html5-plain{
-    font-size: 6.25em;
-    padding-left: 0.8em;
-    padding-top: 0.4em;
-}
-
-.skills-html{
-    font-size: 1.25em;
-    font-weight: 700;
-    padding-left: 38%;
-    display: flex;
-    text-align: center;
-}
-
-.devicon-css3-plain{
-    font-size: 6.25em;
-    padding-left: 0.8em;
-    padding-top: 0.4em;
-}
-
-.skills-css{
-    font-size: 1.25em;
-    font-weight: 700;
-    padding-left: 42%;
-    text-align: center;
-}
-
-.devicon-sass-original{
-    font-size: 6.25em;
-    padding-left: 0.8em;
-    padding-top: 0.4em;
-}
-
-.skills-sass{
-    font-size: 1.25em;
-    font-weight: 700;
-    padding-left: 42%;
-    text-align: center;
-}
-
-.devicon-javascript-plain{
-    font-size: 6.25em;
-    padding-left: 0.8em;
-    padding-top: 0.4em;
-}
-
-.skills-js{
-    font-size: 1.25em;
-    font-weight: 700;
-    padding-left: 4em;
-    text-align: center;
-    position: relative;
-}
-
-.devicon-react-original{
-    font-size: 6.25em;
-    padding-left: 0.8em;
-    padding-top: 0.4em;
-}
-
-.skills-react{
-    font-size: 1.25em;
-    font-weight: 700;
-    padding-left: 40%;
-    text-align: center;
-}
-
-.devicon-git-plain{
-    font-size: 6.25em;
-    padding-left: 0.8em;
-    padding-top: 0.4em;
-}
-
-.skills-git{
-    font-size: 1.25em;
-    font-weight: 700;
-    padding-left: 45%;
-    text-align: center;
-}
 
 /** PARTE 3 **/
 /** PARRAFO **/
@@ -401,47 +335,51 @@ h2{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 62.5em;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1em;
-    margin:auto;
+    width: 100%;
+    padding-left: 10rem;
+    padding-right: 10rem;
+
+    
     /** background-color: green; **/
 }
 
 .item-proy{
-    width: 23em;
-    height: 20em;
+    width: 30%;
+    /**height: 20em; **/
     background-color: white;
+    color:black;
     display: flex;
-    justify-content: center; 
+   /** justify-content: center; **/
     flex-direction: column;
     align-items: center;
-    width: 18.75em;
-    height: 19.37em;
     border-radius: 3%;
     border: 5px solid goldenrod;
-    margin:0.5em;
+    /**margin:0.5em; **/
     margin-top:2em;
     margin-bottom: 2em;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .proy-name{
-    font-size: 1.25em;
+    font-size: 1.25rem;
     font-weight: 700;
-    display: flex;
     text-align: center;
+    padding-top: 1rem;
 }
 
-#proy-hov:hover{
-    border: 4px solid rgb(106, 95, 211); 
+.project-portfolio{
+    margin-bottom: 2.7rem;
+    padding-top: 3rem;
 }
 
 .item-proy:hover{
-    color: blue;
+    border: 4px solid rgb(106, 95, 211); 
 }
 
-
+.item-proy:hover p{
+    color: blue;
+}
 
              /** PARTE 5 **/
              /** FORMULARIO **/ 
@@ -451,17 +389,20 @@ h2{
     background-color:white;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 3%;
+    margin-top: 3%; 
     border-radius: 15px;
     border: 2px solid goldenrod;
-    margin-bottom: 2%;
+    margin-bottom: 2rem;
+
 }
 
 .parte-5{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 1em;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
     /** background-color: lightseagreen; **/
 }
 
@@ -479,11 +420,11 @@ h2{
 }
 
 #contacto{
-    font-size: 2.81em;
     text-align: justify;
     padding-top: 1.5em;
-    padding-bottom: 0.5em;
-    padding-left: 10%;
+    padding-bottom: 0.2em;
+    margin-left: 15%;
+    font-size: 2.81rem;
     /** font-family: 'Nunito', sans-serif; **/
     font-family: 'Quicksand', sans-serif;
     /** background-color: brown; **/
@@ -495,75 +436,39 @@ h2{
     padding-left: 10%;
     padding-right: 10%;
     font-weight: lighter;
-    margin-top: 1em;
+    margin-top: 1rem;
+    margin-bottom: 2em;
 }
             /** CONTENEDORES ICONOS **/
 
-.cont-twitter{
+.cont-redes{
     display: flex;
-    flex-direction: row;
-    justify-content:left;
-    /** background-color:darkkhaki; **/
-} 
-
-.devicon-twitter-original{
-    font-size: 1.2em;
-    padding-left: 4em;
-    padding-top: 2.5em;
-    margin-right: 0.75em;
-    /** background-color: aquamarine; **/
+    flex-direction: column;
+    margin-left: 1rem;
 }
 
-.cont-github{
-    display: flex;
-    flex-direction: row;
-    justify-content:left;
+.redes{
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
 }
 
-.devicon-github-original{
-    font-size: 1.25em;
-    padding-left: 4em;
-    padding-top: 2.5em;
-    margin-right: 0.75em;
+.logo-form{
+    color:black;
 }
 
-.cont-link{
-    display: flex;
-    flex-direction: row;
-    justify-content:left;
+.logo-form i{
+    margin-right: 1rem;
+    padding: 0.5rem;
 }
 
-.devicon-linkedin-plain{
-    font-size: 1.25em;
-    padding-left: 4em;
-    padding-top: 2.5em;
-    margin-right: 0.75em;
-}
-
-.cont-mail{
-    display: flex;
-    flex-direction: row;
-    justify-content:left;
-}
-
-.fa-envelope{
-    font-size: 1.25em;
-    padding-left: 4em;
-    padding-top: 0.1em;
-    margin-right: 0.75em;
-}
-
-   /** Texto de iconos **/
-
-h4{
-    font-weight:lighter;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1.1em;
-    cursor: pointer;
-}
-
-h4:hover{
+.logo-form:hover{
     color:blue;
+}
+
+.logo-form:hover i{
+    border-radius: 50%;
+    background-color: blue;
+    color:white;
 }
 
 /** Establece la fuente del form **/
@@ -628,7 +533,7 @@ input, textarea{
     border: 1px solid #f6f7fb;
     outline: none;
     box-shadow: 1px 1px 8px goldenrod;
-    padding-left: 1.5em;
+    padding-left: 1.3em;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -672,9 +577,6 @@ textarea:hover{
     color: white;
 }
 
-
-
-
                  /** PARTE 6 **/
                  /** FOOTER **/
 
@@ -684,6 +586,7 @@ textarea:hover{
     display: flex;
     margin-bottom: 0em;
     background-color: darkgoldenrod;
+    padding-bottom: 0; 
 }
 
         /** Fondo Footer **/
@@ -691,18 +594,20 @@ textarea:hover{
     box-shadow: 2px 2px 8px goldenrod; 
     background-color: darkgoldenrod;
     width: 100%;
+    padding-bottom: 1rem;
+    
 }
         /** Menu **/
 
 .menu-footer{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:space-evenly;
     list-style: none;
+    margin-top: 4%;
+    font-size: 1rem;
     margin-left: 32%;
     margin-right: 32%;
-    margin-top: 4%;
-    font-size: 1em;
 }
     /** Texto del menu **/
 
@@ -723,7 +628,8 @@ textarea:hover{
     border:0.5em solid white;
     background-color: white;
     border-radius: 50%;
-    font-size: 1.4em;;
+    font-size: 1.4rem;
+    
 }
 
 /** Color original azul - se cambia a violeta **/
@@ -775,87 +681,57 @@ li{
     font-family:'Quicksand', sans-serif;
     font-size: 1em;
     color: white;
-    margin-bottom: 5%;
-    margin-left: 3em;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+   
+   
 }
-
+/*******************************************/
 /** MEDIA QUERY **/ 
    
-@media screen and (max-width: 350px){
+@media screen and (max-width: 576px){
 
     .barra{
-        display: flex;
-        width: 50%;
-        height: 3em;
-        justify-content:space-between;
-        font-size: small;
-        padding: 0px;
-        margin:0px;
+        display: none;
     }
-
-    .boton{
-        width: 100px;
-        justify-content: center;
-        margin-right: 2em;
-        /** background-color: cornsilk; **/
-    }
-
-    .boton-contacto{
-        width: 100px;
-        font-size: small;
-        justify-content: space-between;
-        align-items: center;
-        border-radius: 50px;
-        margin-right: 3em;
-    }
-
-    .boton-contacto:hover{
-        background-color: cornflowerblue;
-    }
-
-    .aheader-contacto{
-        margin-left: 1em;
-    }
-
-    .aheader{
-        margin-right: 1em;
-    }
-
-    .aconoc{
-        margin-right: 2em;
-    }
-
+/**
     .contenedor-principal{
         display: flex;
         flex-direction: column;
+        align-items: center;
         width: 100%;
         padding-top:30px;
         padding-bottom: 2em;
+    } **/
+
+    .parte-1{
+        flex-direction: column;
+        justify-content: center;
     }
 
+    .informacion{
+        text-align: center;
+    }
+    
     .saludo{
         font-size: 1.5em;
-        text-align: center;
-        margin-left:-5em;
     }
 
     .nombre{
         font-size: 2.5em;
         width: 10em;
         margin-left: 0.5%;
-        text-align: center;
+        
     }
 
     .descrip{
         font-size: 1.5em;
-        text-align: center;
+        
         width: 20em;
         margin-left: -1.8em;
     }
     
-    .loquehago{
-        display: none;
-    }
     
     .about-img{
         max-width: 20em;
@@ -945,28 +821,6 @@ li{
     .project-online-learning{
         width: 20em;
         height: 12em;
-    }
-
-    /** FALTA ACOMODAR **/
-
-    .container-form{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-                  
-    }
-
-    .parte-contacto{
-        width: 50;
-       
-         
-    }
-
-    .parte-formulario{
-        width: 50%;
-        
-        flex-wrap: wrap;
-        
     }
 
          /**  OK **/ 
