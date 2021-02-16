@@ -202,10 +202,6 @@ p{
     padding-bottom: 0.3em;
     font-weight: lighter;
 }
-/**
-h2{
-    display: block;
-} **/
 
 /** CAJAS **/
 
@@ -216,7 +212,6 @@ h2{
     flex-wrap: wrap;
     margin-left: 15em;
     margin-right: 15em;
-    
 }
  
 .item-skills{
@@ -252,7 +247,8 @@ h2{
 } 
 
 .item-skills:hover p{
-    color:darkblue;
+    color: blue;
+    font-weight: 500;
 }
 
 
@@ -378,7 +374,7 @@ h2{
 }
 
 .item-proy:hover p{
-    color: blue;
+    color: rgb(106, 95, 211); 
 }
 
              /** PARTE 5 **/
