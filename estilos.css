@@ -476,19 +476,12 @@ p{
 
 /** Extiende el cuadro de texto **/
 
-/** .form-mensaje > textarea{
-    display: block; 
-    resize: both;
-    /** max-height: 2000em;
-    min-height: 12em; **/
- 
 textarea{
     resize: both;
     min-width: 34em;
     min-height: 9.37em; 
     display: block;
 } 
-
 
 /** Alinea los campos nombre y apellido **/
 
@@ -503,10 +496,7 @@ textarea{
     margin-top:1em;
 }
 
-.form-apellido{
-    margin-right: 5em;
-    margin-top: 1em;
-}
+
 
 .form-email{
     margin-bottom: 1em;
@@ -691,85 +681,89 @@ li{
     .barra{
         display: none;
     }
-/**
-    .contenedor-principal{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        padding-top:30px;
-        padding-bottom: 2em;
-    } **/
+
+    /*** CONTENEDOR PRINCIPAL ***/
+
+    #contenedor-principal{
+        padding-top:4rem;
+        padding-bottom: 4rem;
+    }
 
     .parte-1{
         flex-direction: column;
-        justify-content: center;
-    }
-
-    .informacion{
-        text-align: center;
-    }
-    
+        justify-content: center; 
+        margin-left: 2rem;
+        margin-right: 4rem;
+    } 
+      
     .saludo{
         font-size: 1.5em;
+        text-align: center;
     }
 
     .nombre{
         font-size: 2.5em;
-        width: 10em;
-        margin-left: 0.5%;
-        
+        text-align: center;
     }
 
     .descrip{
         font-size: 1.5em;
-        
-        width: 20em;
-        margin-left: -1.8em;
-    }
-    
-    
-    .about-img{
-        max-width: 20em;
-        margin-top: 1em;
-        margin-left: 4em;
+        text-align: center;
     }
 
+    #boton-info{
+        margin-bottom: 2rem;
+        margin-left: 5rem;
+        align-content: center;
+    }
+   
+    .imagen{
+        justify-content: center;
+        padding-top: 2rem;
+    }
+
+    /*** MIS CONOCIMIENTOS ***/
+    
     .container-conocimientos{
-        width: 150%;
+        width: 100%;
         padding-bottom: 1.5em;
-        padding-left: 1em;
+        padding-top: 0.5rem;
     }
-
+    
     #mis-conocimientos{
         font-size: 2.4em;
-        padding-top: 1em; 
-        padding-left: -3em;
-    }
-
+    } 
+    
     .descri-conoc{
         font-size: 1.5em;
-        padding-left: 3%;
-        padding-right:8%;
+        padding-left: 10%;
+        padding-right: 15%;
+        text-align: center;
     }
+
+     /*** CAJAS ***/ 
 
     .container-cajas{
-        display: flex;
         flex-direction: column;
-        align-items: center;
-        font-size: 90%;
-        padding-right: 32em;
+        justify-content: center;
+        font-size: 100%;
+        margin-left: 25%;
+        margin-right: 25%;
+        padding-bottom: 1rem;
+        
     }
+        /*** PARRAFO ***/ 
 
     .container-parrafo{
-        width: 150%;
+        width: 100%;
+        text-align: center;
     }
-
+    
     .comilla{
         font-size: 6em;
         margin-right: 0.4em;
-    }
-
+    } 
+    
     .texto{
         font-size: 1.5em;
         margin-right: 3em;
@@ -779,50 +773,146 @@ li{
     .autor{
         font-size: 1.4em;
     }
+    
+    /*** MIS PROYECTOS ***/
 
     .container-proy{
-        width: 150%;
-        padding-bottom: 0.2em;
-        padding-left: 1em;
+        width: 100%;
+        padding-bottom: 1.5em;
+        padding-top: 0.5rem;
     }
-
     
     #mis-proyectos{
         font-size: 2.5em;
-        padding-top: 1em;
     }
 
     .descri-proy{
         font-size: 1.5em;
-        padding-right: 8%;
-        padding-left: 3%;
+        padding-left: 10%;
+        padding-right: 15%;
     }
 
     .container-cajas-proy{
-        font-size: 100%;
-        margin-left: 4em;
-        display: flex;
-        flex-wrap: wrap;
         flex-direction: column;
+        justify-content: center;
+        width: 250%;
+        
+        margin-right: 15%;
+        padding-bottom: 1rem;
+    }
+
+    /*** FORMULARIO ***/
+
+    .container-form{
+        width: 100%;
+        justify-content: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .parte-5{
+        flex-direction: column;
+        justify-content: center;
+    } 
+
+    /*** CONTACTAME ***/
+
+    #contacto{
+        text-align: center;
+        padding-bottom: 0.2em;
+        padding-top: 1.8rem;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 3.5rem;
+        /** font-family: 'Nunito', sans-serif; **/
+        font-family: 'Quicksand', sans-serif
+    }
+
+    .parte-contacto{
+        width: 100%;
+        justify-content: space-around;
+    } 
+
+    .descri-form{
+        font-size: 1.2rem;
+    }
+    
+    
+    .redes{
+        margin-bottom: 2rem;
+        font-size: 1.3rem;
+    }
+
+    .logo-form:hover i{
+        border-radius: 50%;
+        background-color: blue;
+        color:white;
     }
 
 
-    .project-portfolio{
-        width: 15em;
-        height: 8em;
+
+
+
+
+     /*** ESCRIBIME ***/
+
+    .parte-formulario{
+        width: 100%;
+        justify-content: space-around;
+    }
+     .form-apellido{
+        width: 10rem;
+        margin-right: 4rem;
+        margin-top: 1em;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    #idEmail{
+        width: 24rem;
+    } 
+
+    textarea{
+        resize: both;
+        min-width: 23.5rem;
+        min-height: 9.37em; 
+    }
+    
+    textarea:hover{
+        border: 1px solid rgb(106, 95, 211);
     }
 
-    .project-calculadora, .project-calendar, 
-    .project-appmobile, .project-appclima, 
-    .project-online-learning{
-        width: 20em;
-        height: 12em;
+    .boton-enviar{
+        width: 100%;
+        
+    }
+    
+    .btn{
+        
+        font-size: 1.1em;
+        width: 9.68em;
+        height: 3.12em;
+        border-radius: 6.25em;
+        text-decoration: none;
+        background-color:  hsl(46, 92%, 65%);
+       /** padding-left: 0.9em; **/
     }
 
-         /**  OK **/ 
+    .btn:hover{
+        background-color: rgb(106, 95, 211);
+        color: white;
+    }
+
+
+
+
+
+
+
+    /*** FOOTER ***/
 
     .container-foot{  
-        width: 150%;
+        width: 100%;
     }
 
     .menu-footer{
@@ -831,27 +921,21 @@ li{
         margin-right: 1.5%;
     }
 
-    .link-footer{
-        font-size: 1.1em;
-    }
-
     .redes-footer-links{
-        display: flex;
         align-items: center;
-        justify-content: space-between;
         margin-left: 10%;
-        margin: 10%;
+        margin-right: 10%;
         padding-right: 5em;
         font-size: 1.3em;
-       
+        padding-top: 1rem;
     }
 
     .hecho{
         font-size: 1.1em;
-        text-align: center;
         padding-right: 6em;
-    
-    }
+        padding-bottom: 0.5rem;
+        padding-top: 0;
+     }
 
-}
+
 
