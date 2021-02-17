@@ -389,7 +389,6 @@ p{
     border-radius: 15px;
     border: 2px solid goldenrod;
     margin-bottom: 2rem;
-
 }
 
 .parte-5{
@@ -495,7 +494,6 @@ textarea{
 .form-nombre{
     margin-top:1em;
 }
-
 
 
 .form-email{
@@ -719,7 +717,7 @@ li{
    
     .imagen{
         justify-content: center;
-        padding-top: 2rem;
+        padding-top: 3rem;
     }
 
     /*** MIS CONOCIMIENTOS ***/
@@ -738,7 +736,6 @@ li{
         font-size: 1.5em;
         padding-left: 10%;
         padding-right: 15%;
-        text-align: center;
     }
 
      /*** CAJAS ***/ 
@@ -761,12 +758,11 @@ li{
     
     .comilla{
         font-size: 6em;
-        margin-right: 0.4em;
     } 
     
     .texto{
         font-size: 1.5em;
-        margin-right: 3em;
+        margin-right: 1em;
         margin-left: 1em;
     }
 
@@ -775,6 +771,10 @@ li{
     }
     
     /*** MIS PROYECTOS ***/
+
+    .container-proy{
+        display: none;
+    }
 
     .container-proy{
         width: 100%;
@@ -803,8 +803,8 @@ li{
 
     /*** FORMULARIO ***/
 
+     
     .container-form{
-        width: 100%;
         justify-content: center;
         margin-left: 0;
         margin-right: 0;
@@ -823,24 +823,23 @@ li{
         padding-top: 1.8rem;
         margin-left: 5%;
         margin-right: 5%;
-        font-size: 3.5rem;
+        font-size: 3rem;
         /** font-family: 'Nunito', sans-serif; **/
-        font-family: 'Quicksand', sans-serif
+        font-family: 'Quicksand', sans-serif;
     }
 
     .parte-contacto{
         width: 100%;
-        justify-content: space-around;
-    } 
+    }
 
     .descri-form{
         font-size: 1.2rem;
     }
-    
-    
+        
     .redes{
         margin-bottom: 2rem;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+        font-family: font-family: 'Nunito', sans-serif;
     }
 
     .logo-form:hover i{
@@ -848,43 +847,72 @@ li{
         background-color: blue;
         color:white;
     }
+     /*** ESCRIBIME ***/ 
 
-
-
-
-
-
-     /*** ESCRIBIME ***/
-
+    /**.container-form{
+        background-color: cornflowerblue;
+    }  **/
+ 
     .parte-formulario{
         width: 100%;
-        justify-content: space-around;
     }
-     .form-apellido{
-        width: 10rem;
-        margin-right: 4rem;
-        margin-top: 1em;
-        padding-left: 1rem;
-        padding-right: 1rem;
+
+    .nombre-ape{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        /** background-color: darkorchid; **/
+    }
+
+    /** Casillas de texto ***/
+
+    #idNombre{
+        width: 24rem;
     }
     
+    #idApellido{
+        width: 24rem;
+    }
+
     #idEmail{
         width: 24rem;
-    } 
+        align-items: center;
+        /** background-color: blue; **/
+    }
 
-    textarea{
-        resize: both;
-        min-width: 23.5rem;
-        min-height: 9.37em; 
+      /*** Texto del ingreso de datos al formulario ***/
+
+    .form-apellido{
+        width:100%;
+       /** background-color: darkorange; **/
+      }
+
+    .form-email{
+       text-align: center;
+       /** background-color: darksalmon; **/
     }
     
-    textarea:hover{
-        border: 1px solid rgb(106, 95, 211);
+    .form-mensaje{
+        text-align: center;
+        /** background-color: fuchsia; **/
     }
 
+        /*** Caja de texto del mensaje ***/
+    textarea{  
+        align-items: center;
+        resize: both;
+        min-width: 34em;
+        min-height: 9.37em; 
+        display: block;  
+        margin-left: 5%;
+    } 
+
+    /*** Boton del formulario ***/ 
+     
     .boton-enviar{
         width: 100%;
-        
+        /** background-color: greenyellow; **/
     }
     
     .btn{
@@ -903,39 +931,28 @@ li{
         color: white;
     }
 
-
-
-
-
-
-
-    /*** FOOTER ***/
+       /*** FOOTER ***/
 
     .container-foot{  
         width: 100%;
     }
 
-    .menu-footer{
-        width: 85%;
-        margin-left: 0.5%;
-        margin-right: 1.5%;
+    .barra-footer{
+        display: none;
     }
 
     .redes-footer-links{
         align-items: center;
-        margin-left: 10%;
-        margin-right: 10%;
-        padding-right: 5em;
+        margin-left: 8%;
+        margin-right: 15%;
+        /**padding-right: 5em; **/
         font-size: 1.3em;
-        padding-top: 1rem;
+        padding-top: 2rem;
     }
 
     .hecho{
         font-size: 1.1em;
-        padding-right: 6em;
-        padding-bottom: 0.5rem;
-        padding-top: 0;
-     }
-
-
+        margin-right: 0;
+        margin-left: 0;
+    }
 
