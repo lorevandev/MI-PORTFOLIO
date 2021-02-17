@@ -752,7 +752,7 @@ li{
         margin-right: 0;
         padding-bottom: 1rem;
         position: relative;
-        left: 25%;        
+        /**left: 25%; **/     
     }
 
     .item-skills{
@@ -817,7 +817,7 @@ li{
     .item-proy{
         width: 60%;
         position: relative;
-        left: 8%;
+        /** left: 8%; **/
         margin-top:0;
     }
  
@@ -932,7 +932,7 @@ li{
         min-width: 20rem;
         min-height: 10rem;
         position: relative;
-        left: 15%;
+        /** left: 15%; **/
        
         /**resize: both;
         min-width: 20rem;
