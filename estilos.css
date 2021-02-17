@@ -163,19 +163,11 @@ p{
     border-radius: 6.25em;
     font-weight: bold;
     padding: 0.5rem 1rem;
-       
 }
-
 
 .imagen{
     width: 50%;
 }  
-
-/** .about-img{
-    max-width: 43.75em;
-    margin-top: 1em;
-}  **/
-
 
 /** PARTE 2 **/
 /** MIS CONOCIMIENTOS **/
@@ -255,6 +247,10 @@ p{
 /** PARTE 3 **/
 /** PARRAFO **/
 
+.container-parrafo{
+    display: none;
+}
+
 .parte-3{
    /**  background-color: hsl(46, 92%, 65%);**/
     box-shadow: 2px 2px 8px goldenrod; 
@@ -264,24 +260,21 @@ p{
 
 .container-parrafo{
     display: flex;
-   /**  margin-left: auto;
-    margin-right: auto; **/
     margin-bottom: 0em;
     background-color: darkgoldenrod;
-    /** background-color: rgb(202, 218, 248); **/
-    /**background-color: rgb(241, 179, 135);**/
 }
 
 .comilla{
+    /** background-color: burlywood; **/
     font-size: 12em;
     text-align: center;
     margin: 0.1em;
     height: 0.8em;
     color:white;
-    /** background-color: burlywood; **/
 }
 
 .texto{
+    /** background-color: seagreen; **/
     text-align: center;
     font-size: 1.3em;
     font-style: italic;
@@ -289,7 +282,6 @@ p{
     line-height: 1.5em; 
     margin-top:0;
     margin-bottom:2em;
-    /** background-color: seagreen; **/
 }
 
 .autor{
@@ -298,23 +290,25 @@ p{
     color:white;
     font-weight: bolder;
     margin-bottom: 2em;
-}
+} 
 
         /** PARTE 4 **/
         /** MIS PROYECTOS **/
+
 
 .container-proy{
     background-color: hsl(46, 92%, 65%); 
     box-shadow: 2px 2px 8px goldenrod;
 }
 
+
 #mis-proyectos{
     font-size: 2.81em;
     font-weight: 900;
     text-align: center;
-    padding-top: 1.5em;
+    padding-top: 1rem;
     padding-bottom: 0.8em;
-    font-family: 'Nunito', sans-serif; 
+    font-family: 'Nunito', sans-serif;
 }
 
 .descri-proy{
@@ -823,7 +817,6 @@ li{
  
    /*** FORMULARIO ***/
 
-     
     .container-form{
         justify-content: center;
         margin-left: 0;
@@ -844,7 +837,7 @@ li{
         padding-top: 1.8rem;
         margin-left: 5%;
         margin-right: 5%;
-        font-size: 3rem;
+        font-size: 2.5rem;
         /** font-family: 'Nunito', sans-serif; **/
         font-family: 'Quicksand', sans-serif;
     }
@@ -856,7 +849,7 @@ li{
     }
 
     .descri-form{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
         
     .redes{
