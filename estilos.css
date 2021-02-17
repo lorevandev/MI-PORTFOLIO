@@ -886,15 +886,15 @@ li{
     /** Casillas de texto ***/
 
     #idNombre{
-        width: 24rem;
+        width: 20rem;
     }
     
     #idApellido{
-        width: 24rem;
+        width: 20rem;
     }
 
     #idEmail{
-        width: 24rem;
+        width: 20rem;
         align-items: center;
         /** background-color: blue; **/
     }
@@ -920,10 +920,10 @@ li{
     textarea{  
         align-items: center;
         resize: both;
-        min-width: 34em;
+        min-width: 20rem;
         min-height: 9.37em; 
         display: block;  
-        margin-left: 5%;
+        margin-left: 15%;
     } 
 
     /*** Boton del formulario ***/ 
