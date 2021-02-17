@@ -487,12 +487,16 @@ textarea{
 .nombre-ape{
     display: flex;
     flex-direction: row;
-    padding-right: 0.31em;
-    justify-content: space-between;
+    padding-right: 5.5em;
+    justify-content: space-around;  
 }
 
 .form-nombre{
     margin-top:1em;
+}
+
+.form-apellido{
+    margin-top: 1em;
 }
 
 
@@ -875,6 +879,7 @@ li{
         flex-direction: column;
         align-items: center;
         text-align: center;
+        padding-right: 0;
         /** background-color: darkorchid; **/
     }
 
@@ -895,7 +900,7 @@ li{
     }
 
       /*** Texto del ingreso de datos al formulario ***/
-
+    
     .form-apellido{
         width:100%;
        /** background-color: darkorange; **/
