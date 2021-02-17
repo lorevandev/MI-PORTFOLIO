@@ -295,10 +295,10 @@ p{
         /** PARTE 4 **/
         /** MIS PROYECTOS **/
 
-
 .container-proy{
     background-color: hsl(46, 92%, 65%); 
     box-shadow: 2px 2px 8px goldenrod;
+    padding-bottom: 4rem;
 }
 
 
@@ -306,11 +306,10 @@ p{
     font-size: 2.81em;
     font-weight: 900;
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 1.5em;
     padding-bottom: 0.8em;
     font-family: 'Nunito', sans-serif;
 }
-
 .descri-proy{
     text-align: center;
     padding-left: 33%;
