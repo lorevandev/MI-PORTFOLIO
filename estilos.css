@@ -824,13 +824,11 @@ li{
         margin-left: 0;
         margin-right: 0;
         padding-top: 0;
-        background-color: cornflowerblue;
     } 
     
     .parte-5{
         flex-direction: column;
         justify-content: center;
-        background-color: coral;
     } 
 
     /*** CONTACTAME ***/
@@ -839,6 +837,7 @@ li{
         text-align: center;
         padding-bottom: 0.2em;
         padding-top: 1.8rem;
+        margin-top: 0;
         margin-left: 5%;
         margin-right: 5%;
         font-size: 2.5rem;
@@ -979,3 +978,4 @@ li{
         margin-left: 0;
     }
 
+    
