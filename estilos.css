@@ -145,7 +145,7 @@ p{
 
 .descrip{
     color:rgb(212, 132, 11);
-    font-size: 1.875em;
+    font-size: 2rem;
     font-style: italic;
     font-family: cursive;
     font-weight: 500;
@@ -824,11 +824,13 @@ li{
         margin-left: 0;
         margin-right: 0;
         padding-top: 0;
+        background-color: cornflowerblue;
     } 
     
     .parte-5{
         flex-direction: column;
         justify-content: center;
+        background-color: coral;
     } 
 
     /*** CONTACTAME ***/
